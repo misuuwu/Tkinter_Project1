@@ -108,7 +108,6 @@ class ResumeApp:
         
         # --- Project Card Styling (CLEAN LOOK) ---
         s.configure('ProjectContainer.TFrame', background='white', borderwidth=0, relief='flat', padding=0) 
-        # MODIFICATION: Use padding bottom (15) for all cards and rely on the separator for the visual line.
         s.configure('Project.TFrame', background='white', borderwidth=0, relief='flat', padding=(0, 15)) 
         s.configure('LastProject.TFrame', background='white', borderwidth=0, relief='flat', padding=(0, 15)) 
 
